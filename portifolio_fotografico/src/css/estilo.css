@@ -1,0 +1,158 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+
+    font-family: DM Serif Display;
+}
+
+a{
+    color: black;
+    background-color: white;
+    padding: 5px 30px;
+    border-radius: 15px;
+    
+}
+
+/* primeira pagina */
+    
+.container{
+    min-height: 100vh;
+    background: url(/portifolio/src/imagens/imagem-1.png);
+    background-position: left bottom; /* posição da imagem no background  left top, left center, left bottom... */
+    padding: 30px;
+    display: flex;
+    
+}
+
+.home{
+   display: flex;
+    
+}
+
+.container #botao {
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+  margin: 0 auto;
+  font-weight: 40px;
+}
+
+.container #titulos {
+   padding: 15px 0;
+   font-size: 40px;
+   color: white;
+   
+}
+
+
+#botao{
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+} 
+
+/* segunda pagina */
+
+#pag-principal{
+    background-color: white;
+    display: flex;
+    padding: 40px;
+}
+
+#pag-principal img{
+    margin: 20px 5px;
+}
+
+#pag-principal ul{
+    list-style-type: disc;
+}
+
+.about-me{
+    padding: 100px;
+    text-align: justify;
+    margin: 30px;
+}
+
+/* terceira e quarta pagina */
+.my-portifolio{
+    background-color: black;
+    color: white;
+    
+}
+
+.my-portifolio h1{
+    padding: 30px;
+}
+
+.fotos1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.card{
+    text-align: center;
+    padding-bottom: 20px ;
+    border-radius: 5px ;
+    width: 250px;
+    height: 100vh;  /*deixar a div ocupando a pagina inteira */
+    
+}
+.img-card:hover {
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.1);
+    
+}
+
+
+.img-card{
+    flex-basis: 50%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    max-width: 1440px;
+    padding: 15px;
+   
+}
+
+.fotos2{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+/* ultima pagina */
+
+.contact-me{
+    width: 250px;
+    height: 100vh;
+    display: flex;
+  
+}
+
+.contact-me h1{
+    padding: 35px;
+    display: flex;
+}
+
+#info-contato{
+    margin: 0 auto;
+    padding: 110px 80px 60px;
+    width: 100%;
+    
+
+}
+
+#contato1,#contato2 {
+    height: 200px;
+    width: 500px;
+
+}
+
+#img7{
+    padding: 5px 30px ;
+}
